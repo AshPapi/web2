@@ -1,0 +1,112 @@
+.tab button {
+    background-color: rgb(215, 245, 245);
+    color: #000;
+    float: right;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+.tab button:hover {
+    background-color: rgb(221, 249, 249);
+}
+
+body{ 
+    margin: 0;
+    padding: 0;
+}
+
+.tabcontent {
+    padding: 6px 12px;
+    border-top: none;
+}
+
+.textMain {
+    font-size: 27pt;
+    font-family: "Lucida Console", monotype;
+    text-align: center;
+}
+
+.textLower{
+    font-size: 10pt;
+    font-family: "Lucida Console", monotype;
+}
+
+.line1{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.content{
+    width: 960px;
+    background-color:rgb(218, 252, 252);
+    margin: auto;
+    text-align: center;
+}
+
+.pfp{
+    margin-left: 40px; margin-top: 10px; height:100px; border-radius: 100px;
+}
+
+.welcome{
+    padding-left: 320px;
+    padding-top: 20px;
+    position: absolute;
+    font-size: 27pt;
+    font-family: "Lucida Console", monotype;
+}
+
+footer{ 
+    background-color:rgb(215, 245, 245); 
+    height:70px;
+}
+
+.textfoot{
+    margin-top: 10px;
+    font-size: 12pt;
+    font-family: "Lucida Console", monotype;
+    text-align: left;
+    padding-top: 5px;
+}
+
+ul{
+    list-style-position: inside;  
+}
+
+.block{
+    width: 960px;
+    background-color:rgb(218, 252, 252);
+    margin: auto;
+    padding-top: 1px;
+    padding-bottom: 50px;
+    margin-top: 24px;
+    font-size: 10pt;
+    font-family: "Lucida Console", monotype;
+}
+
+.lastblock{
+    width: 960px;
+    background-color:rgb(218, 252, 252);
+    margin: auto;
+    padding-top: 1px;
+    padding-bottom: 15px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-size: 10pt;
+    font-family: "Lucida Console", monotype;
+}
+
+
+.tabl{
+    height: 200px;
+    width: 550px;
+    margin:auto;
+    text-align: left;
+    justify-content: flex;
+}
