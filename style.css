@@ -9,6 +9,10 @@
     transition: 0.3s;
 }
 
+body{
+    background-color:cadetblue;
+}
+
 .tab button:hover {
     background-color: rgb(221, 249, 249);
 }
@@ -42,12 +46,17 @@ a{
     text-decoration: none;
 }
 
+.move{
+    padding-left: 45px;
+
+}
 
 .content{
     width: 960px;
     background-color:rgb(218, 252, 252);
     margin: auto;
     text-align: center;
+    border-radius: 4%;
 }
 
 .pfp{
@@ -55,8 +64,8 @@ a{
 }
 
 .welcome{
-    padding-left: 320px;
-    padding-top: 20px;
+    padding-left: 170px;
+    padding-top: 30px;
     position: absolute;
     font-size: 27pt;
     font-family: "Lucida Console", monotype;
